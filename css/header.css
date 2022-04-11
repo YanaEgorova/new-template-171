@@ -70,10 +70,14 @@ body.open-menu {
     align-items: center;
     justify-content: center;
     background-color: var(--third-brand-color);
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
+    width: 6rem;
+    height: 5rem;
+    padding: 0 1rem;
     margin: 0 auto;
+}
+.df {
+    display: flex;
+    align-items: center;
 }
 .cart__span-box svg {
     display: block;
