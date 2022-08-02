@@ -59,21 +59,9 @@
 
 .policy__wrapper {
     position: relative;
-    background-image: url('../img/bg3.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--fourth-brand-color);
 }
-.policy__wrapper::before {
-    position: absolute;
-    display: block;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(40, 44, 77, .85);
-}
+
 .policy {
     padding: 15rem 0;
     text-align: center;
@@ -86,7 +74,7 @@
     font-family: var(--title-font);
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: var(--sub-text-color);
+    
 }
 .policy__block {
     max-width: 40rem;
@@ -94,7 +82,7 @@
 }
 .policy__item .text {
     margin-bottom: 3rem;
-    color: var(--sub-text-color);
+    
 }
 
 
@@ -146,14 +134,7 @@
         width: fit-content;
         margin-left: auto;
     }
-    .contacts .img {
-       position: absolute;
-       top: 0;
-       left: 0;
-       max-width: 60%;
-       height: 100%;
-       object-fit: cover;
-    }
+  
 
     .contacts__item {
         position: relative;
