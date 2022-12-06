@@ -6,7 +6,7 @@
     top: 0;
     left: 5rem;
     height: 100%;
-    background-image: linear-gradient(to right bottom, #d7f5dd, #caf4df, #bcf2e2, #aef0e8, #a1eeef);
+    background-image: linear-gradient(to right bottom, var(--third-brand-color), var(--fourth-brand-color));
     display: block;
     content: '';
     width: 20rem;
